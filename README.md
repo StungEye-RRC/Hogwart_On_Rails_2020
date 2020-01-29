@@ -7,5 +7,5 @@ To download and run this project, run the following from your WSL command line:
     rails db:migrate
     rails db:seed
     rails s
-    
-And then visit [http://localhost:3000](http://localhost:3000).
+
+Could can then visit [http://localhost:3000](http://localhost:3000).
