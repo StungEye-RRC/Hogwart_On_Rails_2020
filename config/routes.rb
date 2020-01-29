@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
-  get 'houses/index'
-  get 'houses/show'
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  root to: "houses#index" # Override the welcome to rails screen.
+
+  # Manual member route for house show action:
+  get "houses/:id", to: "houses#show", as: "house", id: /\d+/
+  # We have now defined the house_path
 end
