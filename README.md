@@ -1,24 +1,11 @@
-# README
+# Hogwarts on Rails 2020
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+To download and run this project, run the following from your WSL command line:
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+    git clone https://github.com/stungeye/Hogwart_On_Rails_2020.git
+    cd Hogwart_On_Rails_2020
+    rails db:migrate
+    rails db:seed
+    rails s
+    
+And then visit [http://localhost:3000](http://localhost:3000).
